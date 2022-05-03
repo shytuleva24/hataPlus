@@ -1,0 +1,73 @@
+header {
+    box-shadow: 10px 5px 5px #f3f3f3;
+}
+
+.main-info {
+    max-width: 960px;
+}
+
+.price-title {
+    font-size: 24px;
+    color: #24242b;
+}
+
+.main-info p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #666;
+}
+
+.price-table {
+    border-radius: 3px;
+    margin: 25px 0;
+    overflow: hidden;
+}
+
+.price-table table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0;
+}
+
+.price-table th {
+    background-color: #1f1f56;
+    color: #ffffff;
+    font: 700 14px/1.5em "Roboto Slab";
+    padding: 12px 20px;
+    text-align: left;
+}
+
+.price-table td {
+    font-size: 14px;
+    line-height: 24px;
+    color: #666;
+    background-color: #e4e4ec;
+    padding: 8.5px 20px;
+    border: 1px solid #cdcddd;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.price-table tr:hover td {
+    background-color: #fd8300;
+    color: white;
+    cursor: pointer;
+}
+
+.price-table td:last-child,
+.price-table th:last-child {
+    text-align: right;
+}
+
+.price-table tr:first-child {
+    border-radius: 3px 3px 0 0;
+}
+
+.price-table tr:last-child {
+    border-radius: 0 0 3px 3px;
+}
+
+.link-wrap {
+    padding-top: 14px;
+}

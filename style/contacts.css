@@ -1,0 +1,49 @@
+header {
+    box-shadow: 10px 5px 5px #f3f3f3;
+}
+
+hr {
+    margin: 21px 0 35px;
+}
+
+.main-info {
+    max-width: 960px;
+}
+
+.detail-contacts h1 {
+    font-size: 24px;
+    line-height: 24px;
+    color: #24242b;
+    font-weight: 700;
+}
+
+.detail-contacts h2 {
+    font-size: 14px;
+    line-height: 24px;
+    color: #24242b;
+    font-weight: 700;
+}
+
+.detail-contacts p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #666;
+}
+
+.detail-contacts a {
+    font-size: 18px;
+    line-height: 24px;
+    color: #25252c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.detail-contacts p .mail-link {
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+.requisites {
+    padding-right: 67px;
+}
