@@ -51,6 +51,10 @@ a {
     align-items: center;
 }
 
+header {
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
 .header {
     padding: 15.5px 0;
     background-color: #1f1f56;
@@ -260,7 +264,7 @@ p.prop-text {
     padding: 35px 0 45px;
 }
 
-.main-info {
+.main-with-aside {
     max-width: 713px;
 }
 
