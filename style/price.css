@@ -15,6 +15,7 @@ header {
     font-size: 14px;
     line-height: 24px;
     color: #666;
+    margin: 0;
 }
 
 .price-table {
@@ -43,10 +44,11 @@ header {
     color: #666;
     background-color: #e4e4ec;
     padding: 8.5px 20px;
-    border: 1px solid #cdcddd;
-    border-bottom: 0;
-    border-left: 0;
-    border-right: 0;
+    border-top: 1px solid #cdcddd;
+}
+
+.price-table tr:first-child td {
+    border-top:none
 }
 
 .price-table tr:hover td {
@@ -67,6 +69,7 @@ header {
 .price-table tr:last-child {
     border-radius: 0 0 3px 3px;
 }
+
 
 .link-wrap {
     padding-top: 14px;
