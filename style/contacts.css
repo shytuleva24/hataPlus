@@ -6,10 +6,11 @@ hr {
     margin: 21px 0 35px;
 }
 
-textarea {
+.callback-form textarea {
     resize: vertical;
     font-size: 13px;
     line-height: 21px;
+    padding-top: 15px;
     color: #9999a6;
     font-style: italic;
     font-family: "Arial";
@@ -191,4 +192,15 @@ textarea {
     border-right: 2px solid #1f1f56;
     border-top: 2px solid #1f1f56;
     transform: rotate(135deg);    
+}
+
+.callback-form textarea {
+    resize: vertical;
+    font-size: 13px;
+    padding-top: 11px;
+    color: #9999a6;
+    font-style: italic;
+    font-family: "Arial";
+    min-height: 40px;
+    max-height: 250px;
 }
