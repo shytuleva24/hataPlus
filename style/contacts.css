@@ -6,6 +6,17 @@ hr {
     margin: 21px 0 35px;
 }
 
+textarea {
+    resize: vertical;
+    font-size: 13px;
+    line-height: 21px;
+    color: #9999a6;
+    font-style: italic;
+    font-family: "Arial";
+    min-height: 40px;
+    max-height: 250px;
+}
+
 .main-info {
     max-width: 960px;
 }
@@ -52,8 +63,22 @@ hr {
     flex-wrap: nowrap;
 }
 
+.map {
+    width: 50%;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
 .callback-form{
     width: 50%;
+}
+
+.content-form {
+    max-width: 96%;
 }
 
 .callback-form input,
@@ -61,11 +86,10 @@ hr {
     border-radius: 3px;
     border: 1px solid #c4c4d3;
     font-size: 13px;
-    line-height: 21px;
     color: #9999a6;
     font-style: italic;
     margin-bottom: 9px;
-    padding-left: 15px;
+    padding: 0 0 0 15px;
 }
 
 .flex {
@@ -92,21 +116,79 @@ hr {
 .callback-form .subject,
 .callback-form .text {
     width: 100%;
-    height: 40px;
+    height: 37px;
 }
 
 .callback-form .text {
     height: 106px;
 }
 
-.checkbox {
+.send button {
+    width: 140px;
+    height: 41px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #ffffff;
+    border: 2px solid #fd8300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #25252c;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .25s ease;
+}
+
+.send button:hover {
+    color: #ffffff;
+    background-color: #fd8300;
+}
+
+.check {
+    visibility: hidden;
+    position: absolute;
     font-size: 13px;
     line-height: 21px;
     color: #666666;
 }
 
-.flex .cta {
-    width: 140px;
-    font-size: 14px;
-    height: 42%;
+.check + label {
+    position: relative;
+    padding: 0 25px;
+    margin-left: 30px;
+    font-size: 13px;
+    line-height: 21px;
+    color: #666666;
+}
+  
+.check + label:before,
+.check + label:after {
+    content: "";
+    position: absolute;
+}
+  
+.check + label:before {
+    left: 0;
+    top: -2px;
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+  
+.check:checked + label:before {
+    background-color: #ffffff;
+}
+  
+.check + label:after {
+    left: 4px;
+    top: 2px;
+}
+  
+.check:checked + label:after {
+    width: 8px;
+    height: 5px;
+    border-right: 2px solid #1f1f56;
+    border-top: 2px solid #1f1f56;
+    transform: rotate(135deg);    
 }
