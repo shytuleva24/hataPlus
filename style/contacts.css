@@ -40,6 +40,8 @@ hr {
     font-size: 14px;
     line-height: 21px;
     color: #666;
+    margin: 7px 0;
+
 }
 
 .detail-contacts a {
@@ -109,7 +111,7 @@ hr {
     font-weight: bold;
     font-family: "Roboto Slab";
     width: 47%;
-    margin: 0 0 20px 0;
+    margin: 0 0 15px 0;
 }
 
 .callback-form .name,
