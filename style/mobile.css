@@ -1,0 +1,158 @@
+
+
+
+
+@media screen and (max-width: 984px) {
+    .wrapper {
+        width: 90%;
+    }
+    
+    .contact-info {
+        flex-wrap: nowrap;
+    }
+    
+    .sidebar {
+        order: -1;
+        width: 100%;
+    }
+
+    .cta a {
+        padding: 9rem 20rem;        
+        font-size: 14rem;
+    }
+
+    .phones, .messengers {
+        padding-left: 28rem;
+    }
+
+    .messengers a {
+        font-size: 14rem;
+    }
+    
+    .phones a {
+        font: bold 16rem/18rem Arial;
+    }
+    
+    .stick {
+        position: relative;
+    }
+
+    .stick::before {
+        right: -13rem;
+        top: 9px;
+    }
+
+    .footer .row {
+        justify-content: space-evenly;
+    }
+
+}
+
+
+@media screen and (max-width: 913px) {
+    .contact-info {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .stick::before {
+        right: 3%;
+    }
+
+}
+
+@media screen and (max-width: 794px) {
+    .contact-info {
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        position: relative;
+    }
+
+    .contact-info .cta {
+        order: -1;
+    }
+
+    .stick {
+        position: unset;
+        text-align: right;
+    }
+
+    .stick::before {
+        left: 50%;
+        top: 60%;    
+    }
+
+}
+
+@media screen and (max-width: 792px) {
+    .main-info h2 {
+        text-align: center;
+    }
+
+    .popular-projects .row {
+        justify-content: space-evenly;
+    }
+
+    .messengers {
+        margin-top: -5rem;
+    }
+}
+
+
+
+@media screen and (max-width: 745px) {
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .hamburger span {
+        margin: 4px 0;
+        width: 38px;
+        height: 3px;
+        background-color: #fff;
+        border-radius: 5px;  
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .header {
+        padding: 9rem 0;
+    }
+
+    .header ul {
+        margin: auto -14rem;
+    }
+
+}
+
+@media screen and (max-width: 517px) {
+    .contact-info {
+        text-align: center;
+    }
+    
+    .contact-info .cta {
+        order: 0;
+        width: 219px;
+        text-align: center;
+    }
+
+    .stick {
+        text-align: center;
+    }
+
+    .stick::before {
+        width: 51px;
+        height: 1rem;
+        left: 45%;
+        top: 50%;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+
+}

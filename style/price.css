@@ -1,11 +1,11 @@
 .price-title {
-    font-size: 24px;
+    font-size: 24rem;
     color: #24242b;
 }
 
 .price-table {
-    border-radius: 3px;
-    margin: 25px 0;
+    border-radius: 3rem;
+    margin: 25rem 0;
     overflow: hidden;
 }
 
@@ -18,20 +18,20 @@
 .price-table th {
     background-color: #1f1f56;
     color: #ffffff;
-    font: 700 14px "Roboto Slab";
-    padding: 13px 20px;
+    font: 700 14rem "Roboto Slab";
+    padding: 13rem 20rem;
     text-align: left;
 }
 
 .price-table td {
-    font-size: 14px;
+    font-size: 14rem;
     color: #666;
     background-color: #e4e4ec;
-    padding: 12px 20px;
+    padding: 12rem 20rem;
 }
 
 .price-table tbody tr + tr {
-    border-top: 1px solid #cdcddd;
+    border-top: 1rem solid #cdcddd;
 }
 
 .price-table tbody tr:hover td {

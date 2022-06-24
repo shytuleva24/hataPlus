@@ -10,6 +10,11 @@
     font-display: swap;
 }
 
+html {
+    font-size: 1px;
+}
+
+
 body {
     margin: 0;
     font-family: "Arial", sans-serif;
@@ -20,9 +25,9 @@ sup {
 }
 
 hr {
-    margin: 30px 0;
+    margin: 30rem 0;
     border: none;
-    border-top: 1px solid #e4e4ec;
+    border-top: 1rem solid #e4e4ec;
 }
 
 a {
@@ -31,19 +36,19 @@ a {
 
 .wrapper {
     margin: 0 auto;
-    max-width: 960px;
+    max-width: 960rem;
 }
 
 .row {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    column-gap: 28px;
-    row-gap: 28px;
+    column-gap: 28rem;
+    row-gap: 28rem;
 }
 
 .column {
-    width: 219px;
+    width: 219rem;
     box-sizing: border-box;
 }
 
@@ -52,30 +57,34 @@ a {
 }
 
 header {
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    box-shadow: 0 0 5rem rgba(0,0,0,0.1);
+}
+
+.hamburger {
+    display: none;
 }
 
 .header {
-    padding: 15.5px 0;
+    padding: 15.5rem 0;
     background-color: #1f1f56;
 }
 
 .header ul {
-    margin: 0 -14px;
+    margin: 0 -14rem;
     padding-left: 0;
     list-style: none;
 }
 
 .header li {
     display: inline-block;
-    margin: 0 14px;
+    margin: 0 14rem;
     
 }
 
 .menu a {
-    font-size: 14px;
-    letter-spacing: 2px;
-    line-height: 24px;
+    font-size: 14rem;
+    letter-spacing: 2rem;
+    line-height: 24rem;
     color: #b1b1d2;
     text-decoration: none;
     transition: all .5s ease;
@@ -122,21 +131,21 @@ a.tw:hover {
 }
 
 .contact-info {
-    padding: 20px 0;
+    padding: 20rem 0;
 }
 
 .phones,
 .messengers {
-    padding-left: 48px;
+    padding-left: 48rem;
 }
 
 .phones p,
 .messengers p {
-    margin: 10px 0;
+    margin: 10rem 0;
 }
 
 .phones a {
-    font: bold 18px/24px Arial;
+    font: bold 18rem/24rem Arial;
     color: #25252c;
     text-decoration: none;
 }
@@ -144,8 +153,8 @@ a.tw:hover {
 .icon:before {
     content: '';
     position: absolute;
-    left: -27px;
-    top: 3px;
+    left: -27rem;
+    top: 3rem;
     transition: all .3s ease;
 }
 
@@ -187,16 +196,16 @@ a.tw:hover {
 .stick::before {
     content: '';
     position: absolute;
-    right: -18px;
-    top: 14px;
+    right: -18rem;
+    top: 14rem;
     width: 1px;
-    height: 51px;
+    height: 51rem;
     background-color: #e4e4ec;
 }
 
 .messengers a {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 16rem;
+    line-height: 24rem;
     color: #25252c;
 }
 
@@ -210,14 +219,14 @@ a.tw:hover {
 
 .cta a {
     display: inline-block;
-    padding: 12px 30px;
-    font-size: 16px;
+    padding: 12rem 30rem;
+    font-size: 16rem;
     font-weight: bold;
-    line-height: 24px;
+    line-height: 24rem;
     color: #25252c;
     text-decoration: none;
-    border: 2px solid #fd8300;
-    border-radius: 25px;
+    border: 2rem solid #fd8300;
+    border-radius: 25rem;
     transition: all .25s ease;
 }
 
@@ -227,7 +236,7 @@ a.tw:hover {
 }
 
 .proposition {
-    padding: 55px 0 35px;
+    padding: 55rem 0 35rem;
     text-align: center;
     background: #19140f url(../img/background.jpg) center/cover;
 }
@@ -238,34 +247,34 @@ a.tw:hover {
 
 .prop-title {
     color: #fff;
-    letter-spacing: 2px;
+    letter-spacing: 2rem;
     text-transform: uppercase;
-    font: 700 30px "Roboto Slab";
+    font: 700 30rem "Roboto Slab";
 }
 
 p.prop-text {
-    margin: 5px 0;
+    margin: 5rem 0;
     color: #fff;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 14rem;
+    line-height: 24rem;
 }
 
 .prop-cost {
-    font-size: 24px;
+    font-size: 24rem;
     color: #fd8300;
     font-weight: bold;
 }
 
 .prop-cost span {
-    font-size: 40px;
+    font-size: 40rem;
 }
 
 .main {
-    padding: 35px 0 45px;
+    padding: 35rem 0 45rem;
 }
 
 .main-with-aside {
-    max-width: 713px;
+    max-width: 713rem;
 }
 
 .main h1,
@@ -275,17 +284,17 @@ p.prop-text {
 }
 
 .main-info h1 {
-    margin-top: 5px;
-    font-size: 30px;
+    margin-top: 5rem;
+    font-size: 30rem;
 }
 
 .main-info h2 {
-    font-size: 24px;
+    font-size: 24rem;
 }
 
 .main-info a {
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 14rem;
+    line-height: 24rem;
     color: #fd8300;
     font-weight: bold;
 }
@@ -295,8 +304,8 @@ p.prop-text {
 }
 
 .content p {
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 14rem;
+    line-height: 24rem;
     color: #666;
 }
 
@@ -318,10 +327,10 @@ p.prop-text {
 }
 
 .home h3 {
-    margin: 5px 0 0;
+    margin: 5rem 0 0;
     text-transform: uppercase;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 14rem;
+    line-height: 24rem;
     color: #1f1f56;
 }
 
@@ -331,27 +340,27 @@ p.prop-text {
 
 .home p {
     margin: 0;
-    font-size: 13px;
-    line-height: 18px;
+    font-size: 13rem;
+    line-height: 18rem;
     color: #9999a6;
 }
 
 .sidebar {
-    min-width: 219px;
+    min-width: 219rem;
 }
 
 .aside-menu {
     position: sticky;
-    top: 35px;
-    border-radius: 3px;
+    top: 35rem;
+    border-radius: 3rem;
     overflow: hidden;
 }
 
 .aside-menu p {
     margin: 0;
-    padding: 10px 15px;
+    padding: 10rem 15rem;
     color: #fff;
-    font: 700 16px/1.5em "Roboto Slab";
+    font: 700 16rem/1.5em "Roboto Slab";
     background-color: #1f1f56;
 }
 
@@ -363,16 +372,16 @@ p.prop-text {
 
 .aside-menu a {
     display: block;
-    padding: 10px 15px;
+    padding: 10rem 15rem;
     text-decoration: none;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 14rem;
+    line-height: 24rem;
     color: #25252c;
     background-color: #e4e4ec;
 }
 
 .aside-menu > ul > li + li > a {
-    border-top: 1px solid #cdcddd;
+    border-top: 1rem solid #cdcddd;
 }
 
 .aside-menu > ul > li:hover > a {
@@ -383,18 +392,18 @@ p.prop-text {
 .aside-menu > ul > li > a:before {
     content: '';
     position: absolute;
-    right: 15px;
-    top: 18px;
-    width: 6px;
-    height: 6px;
-    border-right: 2.5px solid #666;
-    border-bottom: 2.5px solid #666;
+    right: 15rem;
+    top: 18rem;
+    width: 6rem;
+    height: 6rem;
+    border-right: 2.5rem solid #666;
+    border-bottom: 2.5rem solid #666;
     transform: rotate(-45deg);
     transition: .4s ease;
 }
 
 .aside-menu > ul > li:hover > a:before {
-    top: 16px;
+    top: 16rem;
     border-color: #fff;
     transform: rotate(45deg);
 }
@@ -408,7 +417,7 @@ p.prop-text {
 }
 
 .sub-menu a {
-    padding-left: 30px;
+    padding-left: 30rem;
     color: #666;
 }
 
@@ -417,20 +426,20 @@ p.prop-text {
 }
 
 .footer {
-    padding: 30px 0 20px;
+    padding: 30rem 0 20rem;
     background-color: #ededf5;
 }
 
 .footer-menu {
-    margin: 10px 0;
+    margin: 10rem 0;
     padding: 0;
     list-style: none;
 }
 
 .footer-menu a {
     text-decoration: none;
-    font-size: 14px;
-    line-height: 26px;
+    font-size: 14rem;
+    line-height: 26rem;
     color: #666;
 }
 
@@ -441,13 +450,13 @@ p.prop-text {
 
 .copy {
     text-align: center;
-    font-size: 13px;
-    line-height: 18px;
+    font-size: 13rem;
+    line-height: 18rem;
     color: #9999a6;
     background-color: #dcdce6;
 }
 
 .copy p {
     margin: 0;
-    padding: 13.5px 0;
+    padding: 13.5rem 0;
 }
