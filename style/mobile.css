@@ -43,6 +43,10 @@
         justify-content: space-evenly;
         row-gap: 0rem;
     }
+
+    .footer-menu {
+        width: auto;
+    }
     
     .detail-contacts .row {
         flex-wrap: wrap;
