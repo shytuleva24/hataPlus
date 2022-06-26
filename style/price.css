@@ -43,4 +43,5 @@
 .price-table td:last-child,
 .price-table th:last-child {
     text-align: right;
+    white-space: nowrap;
 }
