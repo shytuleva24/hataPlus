@@ -134,6 +134,16 @@ a.tw:hover {
     padding: 20rem 0;
 }
 
+.logo picture {
+    width: 220rem;
+}
+
+.logo picture source, 
+.logo picture img {
+    width: 100%;
+}
+
+
 .phones,
 .messengers {
     padding-left: 48rem;
@@ -324,6 +334,10 @@ p.prop-text {
 
 .home a:hover ~ h3 { 
     text-decoration: underline;
+}
+
+.home source, .home img {
+    width: 100%;
 }
 
 .home h3 {

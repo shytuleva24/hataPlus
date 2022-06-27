@@ -317,3 +317,117 @@
     }
 
 }
+
+@media screen and (min-width: 1380px) {
+    html {
+        font-size: 1.2px;
+    }
+
+    a.scale {
+        transform: scale(1.2);
+    }
+
+    .skype:before {
+        transform: scale(1.2);
+    }
+
+    .mail:before {
+        transform: scale(1.2);
+    }
+
+    .tel:before {
+        transform: scale(1.2);
+    }
+}
+
+@media screen and (min-width: 1770px) {
+    html {
+        font-size: 1.4px;
+    }
+
+    a.scale {
+        transform: scale(1.4);
+    }
+
+    .skype:before {
+        transform: scale(1.4);
+    }
+
+    .mail:before {
+        transform: scale(1.4);
+    }
+
+    .tel:before {
+        transform: scale(1.4);
+    }
+
+}
+
+@media screen and (min-width: 2000px) {
+    html {
+        font-size: 1.6px;
+    }
+
+    a.scale {
+        transform: scale(1.6);
+    }
+
+    .skype:before {
+        transform: scale(1.6);
+    }
+
+    .mail:before {
+        transform: scale(1.6);
+    }
+
+    .tel:before {
+        transform: scale(1.6);
+    }
+
+}
+
+@media screen and (min-width: 2400px) {
+    html {
+        font-size: 1.8px;
+    }
+
+    a.scale {
+        transform: scale(1.8);
+    }
+
+    .skype:before {
+        transform: scale(1.8);
+    }
+
+    .mail:before {
+        transform: scale(1.8);
+    }
+
+    .tel:before {
+        transform: scale(1.8);
+    }
+
+}
+
+@media screen and (min-width: 2700px) {
+    html {
+        font-size: 2px;
+    }
+
+    a.scale {
+        transform: scale(2);
+    }
+
+    .skype:before {
+        transform: scale(2);
+    }
+
+    .mail:before {
+        transform: scale(2);
+    }
+
+    .tel:before {
+        transform: scale(2);
+    }
+
+}
