@@ -94,6 +94,10 @@ header {
     color: #fd8300;
 }
 
+.social {
+    padding: 9rem 0;
+}
+
 .social a {
     display: block;
     background: url(../img/sprite.png) no-repeat;
@@ -473,4 +477,8 @@ p.prop-text {
 .copy p {
     margin: 0;
     padding: 13.5rem 0;
+}
+
+.active-burger {
+    display: block;
 }

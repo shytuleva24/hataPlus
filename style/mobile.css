@@ -7,12 +7,11 @@
         flex-wrap: nowrap;
         row-gap: 0rem;
     }
-    
-    .sidebar {
-        order: -1;
-        width: 100%;
-    }
 
+    .main-with-aside {
+        max-width: 60%;
+    }
+    
     .cta a {
         padding: 9rem 20rem;        
         font-size: 14rem;
@@ -97,6 +96,13 @@
 
 }
 
+@media screen and (max-width: 862px) {
+    .sidebar {
+        order: -1;
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 794px) {
     .contact-info {
         flex-direction: row-reverse;
@@ -121,7 +127,6 @@
     .price-table {
         overflow-x: scroll;
     }
-
 }
 
 @media screen and (max-width: 792px) {
@@ -174,6 +179,20 @@
         border-radius: 5px;  
     }
 
+    .hamburger-open span:nth-child(1) {
+        transform: rotate(45deg);
+        margin-top: 18rem;
+    }
+
+    .hamburger-open span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger-open span:nth-child(3) {
+        transform: rotate(-45deg);
+        margin-top: -18rem;
+    }
+
     .header {
         padding: 9rem 0;
         position: fixed;
@@ -193,6 +212,10 @@
         display: none;
     }
 
+    .menu.active-burger {
+        display: block;
+    }
+
     .header .menu ul {
         display: flex;
         margin: 0;
@@ -200,7 +223,7 @@
         flex-direction: column;
         left: 0;
         right: 0;
-        top: 51rem;
+        top: 55rem;        
         background-color: #e4e4ec;
         z-index: 1;
         row-gap: 0;
@@ -253,7 +276,7 @@
     }
 
     .home {
-        width: 100%;
+        width: 70%;
     }
 
 
@@ -314,6 +337,16 @@
     .footer .phones, .footer .messengers {
         padding-left: 11rem;
         width: 80%;
+    }
+
+    .home {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .home {
+        width: 100%;
     }
 
 }

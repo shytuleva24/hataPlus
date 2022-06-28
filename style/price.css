@@ -5,6 +5,7 @@
 
 .price-table {
     border-radius: 3rem;
+    position: relative;
     margin: 25rem 0;
     overflow: hidden;
 }
@@ -45,3 +46,21 @@
     text-align: right;
     white-space: nowrap;
 }
+
+::-webkit-scrollbar {
+    width: 24px;
+    height: 8px; 
+    background-color: #e4e4ec;
+    border-bottom-right-radius: 3rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #1f1f56;
+    border-radius: 9rem;
+    /* box-shadow: inset 1px 1px 10px #f3faf7; */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #fd8300;
+}
+
