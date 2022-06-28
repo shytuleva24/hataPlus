@@ -187,6 +187,8 @@
         height: 3px;
         background-color: #fff;
         border-radius: 5px;  
+        transform: rotate(180deg);
+        transition: all .2s ease;
     }
 
     .hamburger-open span:nth-child(1) {
@@ -195,7 +197,7 @@
     }
 
     .hamburger-open span:nth-child(2) {
-        opacity: 0;
+       opacity: 0;
     }
 
     .hamburger-open span:nth-child(3) {
