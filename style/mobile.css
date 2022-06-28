@@ -9,7 +9,11 @@
     }
 
     .main-with-aside {
-        max-width: 60%;
+        max-width: 65%;
+    }
+
+    .home {
+        width: 47%;
     }
     
     .cta a {
@@ -92,14 +96,24 @@
     .detail-contacts .row {
         flex-wrap: wrap;
     }
-
-
 }
 
 @media screen and (max-width: 862px) {
     .sidebar {
         order: -1;
         width: 100%;
+    }
+
+    .main-with-aside {
+        max-width: 100%;
+    }
+
+    .home {
+        width: 48%;
+    }
+
+    .popular-projects .row {
+        justify-content: space-evenly;
     }
 }
 
@@ -134,16 +148,12 @@
         text-align: center;
     }
 
-    .popular-projects .row {
-        justify-content: space-evenly;
-    }
-
     .messengers {
         margin-top: -5rem;
     }
 
     .home {
-        width: 45%;
+        width: 42%;
     }
 
     .home source,
