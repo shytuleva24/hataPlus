@@ -326,6 +326,7 @@ p.prop-text {
 .home {
     position: relative;
     margin: 0;
+    width: 30%;
 }
 
 .home a {
